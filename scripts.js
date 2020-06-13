@@ -3,7 +3,6 @@ const supported = ('contacts' in navigator && 'ContactsManager' in window);
 
 async function openUpContact(){
     console.log("test");
-    window.alert(supported);
     if(supported){
         const props = ['name'];
         const opts = {multiple: true};
@@ -19,13 +18,5 @@ async function openUpContact(){
 
   
 function handleResults(contacts) {
-    ulResults.classList.toggle('success', true);
-    ulResults.classList.toggle('error', false);
-    ulResults.innerHTML = '';
-    renderResults(contacts);
-}
-  
-  function renderResults(contacts) {
-    
     window.alert(contacts);
-  }
+}
