@@ -3,15 +3,17 @@ console.log("does it work? "+supported);
 
 async function openUpContact(){
     console.log("test");
+    window.alert("supported"+supported);
     if(supported){
         const props = ['name', 'icon'];
         const opts = {multiple: true};
-
+        window.alert("it is, i repeat it is supported");
         try {
         const contacts = await navigator.contacts.select(props, opts);
         handleResults(contacts);
         } catch (ex) {
         // Handle any errors here.
+            window.alert("Please im so sad");
         }
     }
 }
