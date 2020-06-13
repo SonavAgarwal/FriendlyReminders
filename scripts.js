@@ -14,6 +14,7 @@ async function openUpContact(){
         } catch (ex) {
         // Handle any errors here.
             window.alert("Please im so sad");
+            window.alert(ex);
         }
     }
 }
