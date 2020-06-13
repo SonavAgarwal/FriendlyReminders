@@ -14,6 +14,7 @@ h1 {
 }
 
 .friendCard {
+    margin-top: 5vw;
     width: 80vw;
     margin-left: 10vw;
     min-height: 30vw;
@@ -29,9 +30,19 @@ h1 {
 }
 
 h2 {
-    text-align: left;
     font-size: 7vw;
+    margin-top: 0;
+    position: relative;
+    max-width: 48vw;
+    overflow-wrap: break-word;
+    /* left: -5vw; */
+    transform: translateY(-50%);
+}
+
+.talkToText {
+    width: 50vw;
     float:right;
-    margin-top: 11vw;
-    margin-left: 0;
+    margin-top: 15vw;
+    margin-left: 5vw;
+    /* height: 30vw; */
 }
