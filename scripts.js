@@ -20,7 +20,7 @@ async function openUpContact(){
 function handleResults(contacts) {
     var names = [''];
     contacts.forEach((contact) => 
-        names.push(contact.name)
+        names.push(contact.name),
+        window.alert(contact.name)
     )
-    window.alert(names);
 }
