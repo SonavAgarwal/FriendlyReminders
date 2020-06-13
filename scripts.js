@@ -5,7 +5,7 @@ async function openUpContact(){
     console.log("test");
     window.alert("supported"+supported);
     if(supported){
-        const props = ['name', 'icon'];
+        const props = ['name'];
         const opts = {multiple: true};
         window.alert("it is, i repeat it is supported");
         try {
