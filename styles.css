@@ -3,11 +3,10 @@ body {
     min-height: 100vh;
     font-family: Raleway, sans-serif;
     color: rgb(66,66,66);
-
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 13vw;
     font-weight: 900;
     text-align: center;
     margin-bottom: 0;
