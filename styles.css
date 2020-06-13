@@ -2,7 +2,8 @@ body {
     background: linear-gradient(#fbc2eb, #a6c1ee) no-repeat;
     min-height: 100vh;
     font-family: Raleway, sans-serif;
-    
+    color: rgb(66,66,66);
+
 }
 
 h1 {
